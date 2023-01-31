@@ -1,23 +1,14 @@
-/*Tags have default styling there are more ... these are some of them*/
-
-h1 {
-    display: block;
-}
-
-h2 {
-    display: block;
-}
-
-p { /* build in stying block display*/
+.box {
     background-color: orange;
-    display: block;
 }
 
-a { /*build in stying inline display*/
-    background-color: green;
-    display:inline
+.highlight {
+    color: white;
+    text-transform: uppercase;    
 }
 
-button {
-    display: inline;
+.header {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
 }
