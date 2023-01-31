@@ -11,114 +11,55 @@
     <title>Project 3</title>
   </head>
   <body>
-    <div class="header">
-      <h1>homepage</h1>
-      <h2>Lorem ipsum dolor sit.</h2>
+    <!--semantic html-->
+    <h1>homepage</h1>
+    <!-- Span and Div semantically is for styling -->
+    <!-- 
+    <div class="main-heading">homepage</div> Semantically this is incorrect, this div is useless has no meaning so search engine will neglect this -->
+
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!-- <div>Lorem ipsum dolor sit amet.</div> Semantically this is incorrect this div is useless has no meaning so search engine will neglect this -->
+
+    <div class="links">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>Placeat labore fuga quibusdam harum culpa aliquid cupiditate?</p>
+      <p>Accusamus, nisi dolores quod natus inventore dolorem corrupti.</p>
     </div>
 
-    <!--span is inline element-->
+    <!--These are used for wrapping they are interchangeable-->
+    <section></section>
+    <article></article>
+    <aside></aside>
+
+    <div></div>
+    <!--Usually use this to wrap a block then decide what else can be used section, article, aside etc... -->
     <span></span>
-    <div class="box">
-        <p>Using span</p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            consectetur nulla odit labore? Sint necessitatibus nulla, quibusdam
-            fugiat in sequi nihil hic saepe fugit ipsam dolore enim ducimus dicta a
-            est corrupti et, itaque repellat maxime asperiores! Nisi inventore
-            blanditiis cum atque voluptate reiciendis minima soluta ad quam est
-            adipisci, quod ab cumque consequatur itaque exercitationem perspiciatis,
-            necessitatibus quasi eveniet animi.<span class="highlight">Iure cumque 
-            dolorum provident iste</span>eius at beatae ipsa eos hic distinctio 
-            dignissimos totam ipsum ea 
-            non autem, quos, similique nihil deserunt. Recusandae nesciunt impedit
-            eveniet dolor, aliquid minima tenetur aliquam ab quo nam dolorum. Ex
-            praesentium exercitationem provident?
-          </p>
 
-    </div>
-    <hr>
+    <main></main>
+    <!--This is the next inportant than the body -->
 
-    <!-- div is block element-->
-    <div class="box">
-      <p>Using div</p>
+    <br />
+    <!--Used for news articles etc-->
+    <article>
+      <h2>News Article</h2>
+      <img src="" alt="" />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-        consectetur nulla odit labore? Sint necessitatibus nulla, quibusdam
-        fugiat in sequi nihil hic saepe fugit ipsam dolore enim ducimus dicta a
-        est corrupti et, itaque repellat maxime asperiores! Nisi inventore
-        blanditiis cum atque voluptate reiciendis minima soluta ad quam est
-        adipisci, quod ab cumque consequatur itaque exercitationem perspiciatis,
-        necessitatibus quasi eveniet animi.<div class="highlight">Iure cumque 
-        dolorum provident iste</div>eius at beatae ipsa eos hic distinctio 
-        dignissimos totam ipsum ea 
-        non autem, quos, similique nihil deserunt. Recusandae nesciunt impedit
-        eveniet dolor, aliquid minima tenetur aliquam ab quo nam dolorum. Ex
-        praesentium exercitationem provident?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+        provident?
       </p>
-    </div>
-    
+      <button>Go To</button>
+    </article>
+    <br />
 
-    <div class="links">
-        <a href="">Lorem, ipsum dolor.</a>
-        <a href="">Laudantium, architecto nihil.</a>
-        <a href="">Eveniet, explicabo error.</a>
-    </div>
-    <hr>
-     
-
-    <!-- Inline Lock with inline elements will work!!!-->
-    <span class="links">
-        <a href="">Lorem, ipsum dolor.</a>
-        <a href="">Laudantium, architecto nihil.</a>
-        <a href="">Eveniet, explicabo error.</a>
-    </span>
-
-    <!--inline element to lock block element: ("will not work") -->
-    <!-- Cannot lock block element with inline has to use block with block, inline with inline element-->
-
-    <span class="links">
-        <p>Lorem, ipsum dolor.</p>
-        <p>Mollitia, perspiciatis nemo.</p>
-        <p>Deleniti, corrupti ipsum?</p>
-    </span>
-
-    <!-- Block lock with Block element will work!!!-->
-    <div class="links">
-        <p>Lorem, ipsum dolor.</p>
-        <p>Mollitia, perspiciatis nemo.</p>
-        <p>Deleniti, corrupti ipsum?</p>
-    </div>
-
-    <!-- HTML: Fast Syntax-->
-    
-    <!--SYNTAX:  div.link-->
-    <div class="link"> </div>  
-    <!--SYNTAX: .links-->
-    <div class="links"></div>
-
-    
-    <div class="links">    <!-- SYNTAX: .link>p*3>lorem3 (meaning to have a div with class of link with 3 paragraph with lorem3 in them)-->    
-        <p>Lorem, ipsum dolor.</p>
-        <p>Minima, incidunt pariatur?</p>
-        <p>Quam, recusandae consequuntur.</p>
-    </div>
-
-    <div class="links">  
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Esse quas iste modi cumque?</p>
-        <p>Incidunt fugiat laboriosam necessitatibus aliquid!</p>
-    </div>
-
-    <!-- #text creates a div with ID of text-->
-    <div id="text"></div>
-
-    <!-- .links>p.text*3>lorem10-->
-    <div class="links">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, 
-              praesentium?</p>
-        <p>A sint officia hic vitae error, saepe sapiente unde eum!</p>
-        <p>Beatae tempora sunt officiis iste asperiores quasi culpa consequuntur consectetur?</p>
-    </div>
-     
+    <!--Used for block that shares the same theme-->
+    <section>
+      <h3>Block</h3>
+      <img src="" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae,
+        consequuntur.
+      </p>
+    </section>
   </body>
 </html>

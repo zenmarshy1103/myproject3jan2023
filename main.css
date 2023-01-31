@@ -1,20 +1,4 @@
-.box {
-    background-color: lightblue;
-}
-
-.highlight {
-    color: yellow;
-    background-color: red;
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-.header {
-    background-color: darkgreen;
-    color: white;
-    text-align: center;
-}
-
-.links {
-    background-color: red;
+.main-heading {
+    font-size: 32px;
+    font-weight: bold;
 }
