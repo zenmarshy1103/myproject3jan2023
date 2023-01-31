@@ -10,29 +10,115 @@
 
     <title>Project 3</title>
   </head>
-  <body>    
-    
+  <body>
     <div class="header">
-        <h1>homepage</h1>
-        <h2>Lorem ipsum dolor sit.</h2>
+      <h1>homepage</h1>
+      <h2>Lorem ipsum dolor sit.</h2>
     </div>
-    
-    <!--span is inline-->
+
+    <!--span is inline element-->
     <span></span>
-    
-    
-    <!-- div is block-->
-    <div class="box"> 
+    <div class="box">
+        <p>Using span</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            consectetur nulla odit labore? Sint necessitatibus nulla, quibusdam
+            fugiat in sequi nihil hic saepe fugit ipsam dolore enim ducimus dicta a
+            est corrupti et, itaque repellat maxime asperiores! Nisi inventore
+            blanditiis cum atque voluptate reiciendis minima soluta ad quam est
+            adipisci, quod ab cumque consequatur itaque exercitationem perspiciatis,
+            necessitatibus quasi eveniet animi.<span class="highlight">Iure cumque 
+            dolorum provident iste</span>eius at beatae ipsa eos hic distinctio 
+            dignissimos totam ipsum ea 
+            non autem, quos, similique nihil deserunt. Recusandae nesciunt impedit
+            eveniet dolor, aliquid minima tenetur aliquam ab quo nam dolorum. Ex
+            praesentium exercitationem provident?
+          </p>
+
+    </div>
+    <hr>
+
+    <!-- div is block element-->
+    <div class="box">
+      <p>Using div</p>
       <p>
-        Lorem ipsum dolor sit, <span class="highlight"> amet consectetur</span> adipisicing elit. Consequatur,
-        quos.
-      </p>
-      <p>Nesciunt quod magnam enim non optio delectus nisi cum neque!</p>
-      <p>
-        Illum hic magnam cupiditate praesentium aliquam distinctio repellendus
-        ut earum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        consectetur nulla odit labore? Sint necessitatibus nulla, quibusdam
+        fugiat in sequi nihil hic saepe fugit ipsam dolore enim ducimus dicta a
+        est corrupti et, itaque repellat maxime asperiores! Nisi inventore
+        blanditiis cum atque voluptate reiciendis minima soluta ad quam est
+        adipisci, quod ab cumque consequatur itaque exercitationem perspiciatis,
+        necessitatibus quasi eveniet animi.<div class="highlight">Iure cumque 
+        dolorum provident iste</div>eius at beatae ipsa eos hic distinctio 
+        dignissimos totam ipsum ea 
+        non autem, quos, similique nihil deserunt. Recusandae nesciunt impedit
+        eveniet dolor, aliquid minima tenetur aliquam ab quo nam dolorum. Ex
+        praesentium exercitationem provident?
       </p>
     </div>
-   
+    
+
+    <div class="links">
+        <a href="">Lorem, ipsum dolor.</a>
+        <a href="">Laudantium, architecto nihil.</a>
+        <a href="">Eveniet, explicabo error.</a>
+    </div>
+    <hr>
+     
+
+    <!-- Inline Lock with inline elements will work!!!-->
+    <span class="links">
+        <a href="">Lorem, ipsum dolor.</a>
+        <a href="">Laudantium, architecto nihil.</a>
+        <a href="">Eveniet, explicabo error.</a>
+    </span>
+
+    <!--inline element to lock block element: ("will not work") -->
+    <!-- Cannot lock block element with inline has to use block with block, inline with inline element-->
+
+    <span class="links">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Mollitia, perspiciatis nemo.</p>
+        <p>Deleniti, corrupti ipsum?</p>
+    </span>
+
+    <!-- Block lock with Block element will work!!!-->
+    <div class="links">
+        <p>Lorem, ipsum dolor.</p>
+        <p>Mollitia, perspiciatis nemo.</p>
+        <p>Deleniti, corrupti ipsum?</p>
+    </div>
+
+    <!-- HTML: Fast Syntax-->
+    
+    <!--SYNTAX:  div.link-->
+    <div class="link"> </div>  
+    <!--SYNTAX: .links-->
+    <div class="links"></div>
+
+    
+    <div class="links">    <!-- SYNTAX: .link>p*3>lorem3 (meaning to have a div with class of link with 3 paragraph with lorem3 in them)-->    
+        <p>Lorem, ipsum dolor.</p>
+        <p>Minima, incidunt pariatur?</p>
+        <p>Quam, recusandae consequuntur.</p>
+    </div>
+
+    <div class="links">  
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Esse quas iste modi cumque?</p>
+        <p>Incidunt fugiat laboriosam necessitatibus aliquid!</p>
+    </div>
+
+    <!-- #text creates a div with ID of text-->
+    <div id="text"></div>
+
+    <!-- .links>p.text*3>lorem10-->
+    <div class="links">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, 
+              praesentium?</p>
+        <p>A sint officia hic vitae error, saepe sapiente unde eum!</p>
+        <p>Beatae tempora sunt officiis iste asperiores quasi culpa consequuntur consectetur?</p>
+    </div>
+     
   </body>
 </html>
